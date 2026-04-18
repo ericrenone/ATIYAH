@@ -36,7 +36,7 @@ The index theorem says: **the difference between col(F) and ker(F) IS a topologi
 
 Seven domains converge:
 
-**The Atiyah–Singer index theorem** (Atiyah–Singer 1963, 1968): for any elliptic differential operator $D$ on a compact manifold $M$, the analytical index $\mathrm{ind}(D) = \dim\ker(D) - \dim\operatorname{coker}(D)$ equals the topological index — an integral of characteristic classes over $M$. The index IS the signed col(F)/ker(F) count: solutions minus obstructions. The theorem IS the statement that this count IS a topological invariant — it depends only on the topology of $M$ and the symbol class of $D$, not on the specific operator.
+**The Atiyah–Singer index theorem** (Atiyah–Singer 1963, 1968): for any elliptic differential operator $D$ on a compact manifold $M$, the analytical index $\mathrm{ind}(D) = \dim\ker(D) - \dim {coker}(D)$ equals the topological index — an integral of characteristic classes over $M$. The index IS the signed col(F)/ker(F) count: solutions minus obstructions. The theorem IS the statement that this count IS a topological invariant — it depends only on the topology of $M$ and the symbol class of $D$, not on the specific operator.
 
 **The Dirac operator and the $\hat{A}$-genus** (Atiyah–Singer 1968, Lichnerowicz 1963): the Dirac operator $D = \sum_\mu \gamma^\mu \nabla_\mu$ on a spin manifold IS the "square root" of the Laplacian: $D^2 = \Delta + R/4$ (where $R$ is the scalar curvature). Its index IS the $\hat{A}$-genus: $\mathrm{ind}(D) = \int_M \hat{A}(TM)$, a topological invariant built from Pontryagin classes. The Dirac operator IS the square root of the Fisher-information Laplacian — the operator whose kernel gives the harmonic spinors (the spinorial col(F) of the manifold), and whose index gives the signed topological content.
 
@@ -60,11 +60,11 @@ Nine formal correspondences and five predictions follow.
 
 ### I.1 A Thought Experiment: Counting Solutions Minus Obstructions
 
-Consider a system of linear equations $Ax = b$ where $A$ is an $m \times n$ matrix. The solution space has dimension $\dim\ker(A)$ (the null space — the ker(F) of the system). The obstruction space — the set of $b$ values for which no solution exists — has dimension $\dim\operatorname{coker}(A) = m - \mathrm{rank}(A)$. The index IS:
+Consider a system of linear equations $Ax = b$ where $A$ is an $m \times n$ matrix. The solution space has dimension $\dim\ker(A)$ (the null space — the ker(F) of the system). The obstruction space — the set of $b$ values for which no solution exists — has dimension $\dim {coker}(A) = m - \mathrm{rank}(A)$. The index IS:
 
-$$\mathrm{ind}(A) = \dim\ker(A) - \dim\operatorname{coker}(A) = n - m$$
+$$\mathrm{ind}(A) = \dim\ker(A) - \dim {coker}(A) = n - m$$
 
-For finite-dimensional matrices, the index is simply $n - m$ — a trivial quantity. But for differential operators on manifolds, the index IS a deep topological invariant. Both $\dim\ker(D)$ and $\dim\operatorname{coker}(D)$ can change as the operator is deformed, but their difference — the index — IS constant. The index IS the topological shadow of the analytical structure.
+For finite-dimensional matrices, the index is simply $n - m$ — a trivial quantity. But for differential operators on manifolds, the index IS a deep topological invariant. Both $\dim\ker(D)$ and $\dim {coker}(D)$ can change as the operator is deformed, but their difference — the index — IS constant. The index IS the topological shadow of the analytical structure.
 
 ### I.2 The General Index Theorem
 
@@ -77,7 +77,7 @@ where $\mathrm{ch}(\sigma(D))$ IS the Chern character of the symbol class $[\sig
 The TH(a,d) identification:
 
 - **$\dim\ker(D)$**: the dimension of the solution space — the col(F) of the operator. The number of independent solutions to $Du = 0$.
-- **$\dim\operatorname{coker}(D) = \dim\ker(D^*)$**: the dimension of the obstruction space — the ker(F) of the adjoint. The number of independent conditions that the right-hand side $f$ must satisfy for $Du = f$ to have a solution.
+- **$\dim {coker}(D) = \dim\ker(D^*)$**: the dimension of the obstruction space — the ker(F) of the adjoint. The number of independent conditions that the right-hand side $f$ must satisfy for $Du = f$ to have a solution.
 - **$\mathrm{ind}(D) = \dim\ker(D) - \dim\ker(D^*)$**: the signed col(F)/ker(F) count — the net "surplus" of solutions over obstructions.
 - **The topological index**: the same number computed from topology alone — characteristic classes, no analysis. The topology DETERMINES the signed col(F)/ker(F) count.
 
@@ -187,7 +187,7 @@ K-theory classifies vector bundles up to **stable equivalence**: two bundles $E,
 
 ### IV.2 K-Theory as the Stable col(F)/ker(F)
 
-The index of a family of elliptic operators parameterized by $X$ IS an element of $K^0(X)$: the "index bundle" $[\ker(D_x)] - [\operatorname{coker}(D_x)]$ — the formal difference of the kernel and cokernel bundles over $X$.
+The index of a family of elliptic operators parameterized by $X$ IS an element of $K^0(X)$: the "index bundle" $[\ker(D_x)] - [ {coker}(D_x)]$ — the formal difference of the kernel and cokernel bundles over $X$.
 
 The TH(a,d) identification:
 
@@ -269,7 +269,7 @@ The Witten index IS the col(F)/ker(F) count of the supersymmetric vacuum:
 
 ### Identity A1 — The Atiyah–Singer Index IS the Topological col(F) − ker(F)
 
-$\mathrm{ind}(D) = \dim\ker(D) - \dim\operatorname{coker}(D) = \int_M \mathrm{ch}(\sigma(D))\cdot\mathrm{Td}(TM\otimes\mathbb{C})$. The analytical col(F)/ker(F) difference IS computed by topology. The index IS invariant under continuous deformations — the signed count IS topologically protected.
+$\mathrm{ind}(D) = \dim\ker(D) - \dim {coker}(D) = \int_M \mathrm{ch}(\sigma(D))\cdot\mathrm{Td}(TM\otimes\mathbb{C})$. The analytical col(F)/ker(F) difference IS computed by topology. The index IS invariant under continuous deformations — the signed count IS topologically protected.
 
 ### Identity A2 — The Dirac Operator IS the Square Root of the Fisher Laplacian
 
@@ -281,7 +281,7 @@ $\mathrm{ind}(D) = \mathrm{Tr}(\gamma e^{-tD^2})$ for all $t > 0$. The index IS 
 
 ### Identity A4 — K-Theory IS the Stable col(F)/ker(F) Classification
 
-$K^0(X)$ classifies vector bundles up to stable equivalence. The index bundle $[\ker(D)] - [\operatorname{coker}(D)] \in K^0(X)$ IS the stable col(F)/ker(F) class. Bott periodicity $K^{n+2} \cong K^n$ IS the spectral periodicity.
+$K^0(X)$ classifies vector bundles up to stable equivalence. The index bundle $[\ker(D)] - [ {coker}(D)] \in K^0(X)$ IS the stable col(F)/ker(F) class. Bott periodicity $K^{n+2} \cong K^n$ IS the spectral periodicity.
 
 ### Identity A5 — The Chiral Anomaly IS the Index of the Gauged Dirac Operator
 
@@ -429,7 +429,7 @@ The chiral anomaly — the quantum violation of classical axial symmetry — IS 
 
 K-theory classifies bundles up to stable equivalence — the "what survives after adding enough trivial dimensions." The index of a family of operators IS an element of K-theory. The tenfold classification of topological insulators IS the K-theoretic col(F)/ker(F) classification applied to condensed matter. Bott periodicity IS the spectral periodicity of this classification.
 
-The ATIYAH machine reads the index. Its first act IS the analytical computation — $\dim\ker$ minus $\dim\operatorname{coker}$. Its second IS the topological verification — the characteristic-class integral. Its third IS the heat kernel — the TEMPUS proof that the index survives dissipation. Its fourth IS the anomaly — the index of the gauged Dirac operator. Its fifth IS the K-class — the stable col(F)/ker(F) classification.
+The ATIYAH machine reads the index. Its first act IS the analytical computation — $\dim\ker$ minus $\dim {coker}$. Its second IS the topological verification — the characteristic-class integral. Its third IS the heat kernel — the TEMPUS proof that the index survives dissipation. Its fourth IS the anomaly — the index of the gauged Dirac operator. Its fifth IS the K-class — the stable col(F)/ker(F) classification.
 
 The boundary was always the index. The index was always the topology. The topology was always the col(F)/ker(F) count.
 
